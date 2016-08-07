@@ -4,7 +4,7 @@
   "description": "server of crawler",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --harmony src/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Kingwl/dog_fuck_house_server/issues"
   },
-  "homepage": "https://github.com/Kingwl/dog_fuck_house_server#readme"
+  "homepage": "https://github.com/Kingwl/dog_fuck_house_server#readme",
+  "dependencies": {
+    "koa": "^1.2.1",
+    "koa-router": "^5.4.0",
+    "koa-bodyparser": "^2.2.0",
+    "koa-json": "^1.1.3"
+  }
 }
