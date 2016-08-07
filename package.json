@@ -1,0 +1,19 @@
+{
+  "name": "dog_fuck_house_server",
+  "version": "1.0.0",
+  "description": "server of crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kingwl/dog_fuck_house_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kingwl/dog_fuck_house_server/issues"
+  },
+  "homepage": "https://github.com/Kingwl/dog_fuck_house_server#readme"
+}
