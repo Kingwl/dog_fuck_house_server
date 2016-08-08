@@ -5,6 +5,7 @@ const Commit = require('./models/commit');
 const House = require('./models/house');
 
 const json = require('koa-json');
+const cors = require('koa-cors');
 const bodyParser = require('koa-bodyparser');
 
 const mongoose = require('mongoose');
@@ -17,6 +18,7 @@ mongoose.connect('mongodb://localhost/HouseDB', err => {
     console.log('connect database success');
 });
 
+app.use(cors());
 app.use(json());
 
 router.get('/', function* (next) {
